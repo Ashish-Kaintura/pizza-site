@@ -1,0 +1,29 @@
+.vegpastatitle{
+    text-align: center;
+    color:#de042e;
+    font-weight: 600;
+    font-size: larger;
+    font-family: 'Open Sans', sans-serif;
+    margin: 20px 0;
+
+}
+.vegpastabackground{
+    padding: 10px 0;
+    color: aliceblue;
+    margin-left: 10px;
+    /* background-color: aqua; */
+}
+.vegpasta-icon{
+    width: 60%;
+    height: 20vh;
+}
+.pastanames{
+    margin-top: 60px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+}
+.discription2{
+    margin-top: 60px;
+    font-size: small;
+    padding: 10px
+} 

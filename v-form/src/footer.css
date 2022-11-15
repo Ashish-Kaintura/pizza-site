@@ -1,0 +1,85 @@
+.footer1{
+    display: flex;
+    color: white;
+    font-size: 14px;
+    background-color:  #526274;
+    border-bottom: 1px dotted #f6f8fb;
+     margin: 0 20px;
+    margin-top: 40px;
+    padding: 20px;
+   
+}
+.navlink-3{
+    margin: 0 7vw;
+    font-size: larger;
+    font-weight: 800;
+    font-family: 'proximaNova';
+    color: rgb(188, 181, 181);
+    text-decoration: none;
+}
+.footer2{
+    text-align: center;
+    background-color: #2d333b;
+    margin: 0 20px;
+}
+.copyright{
+    padding: 5px;
+    font-family: 'proximaNova';
+    color:#f6f8fb
+}
+.footer3{
+    text-align: right;
+    padding: 5px;
+    margin: 0 20px;
+    margin-bottom: 50px;
+}
+.displayblock{
+    display:flex;
+    flex-direction: column;
+    
+}
+@media only screen and (max-width: 844px) {
+
+
+    .footer1{
+        display: flex;
+        color: white;
+        font-size: 14px;
+        background-color:  #526274;
+        border-bottom: 1px dotted #f6f8fb;
+        margin: 0 2px;
+        margin-top: 10px;
+        padding: 20px;
+       
+    }
+    .navlink-3{
+        margin: 0 5px;
+        font-size: larger;
+        font-weight: 800;
+        font-family: 'proximaNova';
+        color: rgb(188, 181, 181);
+        text-decoration: none;
+    }
+    .footer2{
+        text-align: center;
+        background-color: #2d333b;
+        margin: 0 2px;
+    }
+    .copyright{
+        padding: 5px;
+        font-family: 'proximaNova';
+        color:#f6f8fb
+    }
+    .footer3{
+        text-align: right;
+        padding: 5px;
+        margin: 0 20px;
+        margin-bottom: 50px;
+    }
+    .displayblock{
+        display:flex;
+        flex-direction: column;
+        
+    }
+
+}

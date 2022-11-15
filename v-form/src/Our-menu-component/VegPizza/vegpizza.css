@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@200&family=Source+Sans+Pro:wght@200&display=swap');
+.displayflex{
+    display:flex ;  
+    text-align: center;
+    background-color: #de042e;
+    padding: 25px;
+    margin-top: 10PX;
+}
+.background-Red{
+    /* background-color: #de042e; */
+    /* background-color: aqua; */
+    color: #fff;;
+     padding: 0 22px
+
+    
+}
+.background-Red1{
+    /* background-color: #de042e; */
+    /* background-color: aqua; */
+    color: #fff;;
+     padding: 0 63px;
+     text-align: center;
+
+    
+}
+.pizzanames{
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+}
+.discription1{
+    margin-top: 20px;
+    font-size: small;
+    padding: 0 10px;
+}  
+.ordernow-btn{
+    margin-top: 20px;
+   
+}
+.OrderNow-Btn{
+    border-radius: 8px;
+    border:0ch;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #de042e;
+}
+.OrderNow-Btn:hover{
+    font-size: 20PX;
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: #de042e;
+}

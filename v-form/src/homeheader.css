@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+.header{
+    text-align: center;
+    align-items: center;
+    margin-top: 5px;
+    font-family: 'Lora', serif;
+    color: gray;
+    font-size: medium;
+}
+.template{
+    display: flex;
+    margin-top: 20px;
+    background-image: url("food1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 15px 0;
+    box-shadow: 0 5px 15px rgba(4, 4, 4, 0.6);
+
+
+}
+.content{
+    margin-top: 50px;
+    margin-left: 10px;
+    justify-content: center;
+    color: black;
+    font-size: 20px;
+    font-family: 'Lora', serif;
+    
+}
+.p1{
+    color:whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.order{
+    padding: 10px 20px;
+    font-size: large;
+    background-color: rgb(65, 255, 65);
+    border: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-weight:bold;
+    color:slateblue;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(241, 239, 239, 0.6);
+}
+.order:hover{
+    opacity: 90%;
+    background-color: slateblue;
+    color: rgb(65, 255, 65);
+}
+.pizzaiconcenter{
+justify-content: center;
+align-items: center;
+}
+.pizzaicon{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    margin-left: 20vw;
+    animation: mymove 5s infinite;
+}
+@keyframes mymove {
+    50% {transform: rotate(180deg);}
+  }
+
+  /* container2 */
+  .container2{
+    margin-top: 10px;
+    font-size:20px;
+    background-color:#eee;
+  }
+  .containermenu{
+    color: blue;
+    text-decoration: none;
+  }
+  .container2:hover{
+    opacity: 80%;
+  }
+  .containermenu:hover{
+    text-decoration: underline;
+  }
+  @media only screen and (max-width: 844px) {
+  
+    .header{
+      text-align: center;
+      align-items: center;
+      margin-top: 5px;
+      font-family: 'Lora', serif;
+      color: gray;
+      font-size: medium;
+  }
+  .template{
+      display: flex;
+      margin-top: 20px;
+      background-image: url("food1.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding: 15px 0;
+      box-shadow: 0 5px 15px rgba(4, 4, 4, 0.6);
+  
+  
+  }
+  .content{
+      margin-top: 50px;
+      margin-left: 10px;
+      justify-content: center;
+      color: black;
+      font-size: 15px;
+      font-family: 'Lora', serif;
+      
+  }
+  .p1{
+    font-size: small;
+      color:whitesmoke;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+  }
+  .order{
+      padding: 5px 20px;
+      font-size: 15px;
+      background-color: rgb(65, 255, 65);
+      border: 0px;
+      font-family: 'Poppins', sans-serif;
+      font-weight:bold;
+      color:slateblue;
+      cursor: pointer;
+      box-shadow: 0 5px 15px rgba(241, 239, 239, 0.6);
+  }
+  .order:hover{
+      opacity: 90%;
+      background-color: slateblue;
+      color: rgb(65, 255, 65);
+  }
+  .pizzaiconcenter{
+  justify-content: center;
+  align-items: center;
+  }
+  .pizzaicon{
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      height: 20vh;
+      margin-top: 20px;
+      margin-left: 0;
+      margin-left: 3px;
+      animation: mymove 5s infinite;
+  }
+  }

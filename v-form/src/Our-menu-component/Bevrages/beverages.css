@@ -1,0 +1,45 @@
+.displayflex3{
+    display: flex;
+    padding: 30px;
+    margin-top: 10px;
+    background-color: #de042e;
+}
+.bevragesimage{
+    /* background-color: aqua; */
+    text-align: center;
+    color: antiquewhite;
+    padding: 30px 60px;
+    margin:0 30px;
+}
+.bevragesname{
+    margin: 40px 0;
+    color: aliceblue;
+    font-size: 26px;
+    font-weight: 500;
+
+}
+.bevragesordernow{
+    text-decoration: none;
+    color: #de042e;
+    background-color: #fff;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.bevragesordernow:hover{
+    
+    color: #fff;
+    background-color: #de042e;
+    border: 1px solid #fff;
+
+}
+.blackpepsipic{
+    width: 20vw;
+    height: 30vh;
+}
+.fantapic{
+    width: 20vw;
+    height: 30vh;
+}

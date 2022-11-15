@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@200&display=swap');
+
+.gifcard {
+  margin-left: 80px;
+  font-size: 40px;
+  color: gray;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.giftcardoffer {
+  background-color: #eee;
+  padding: 20px 0;
+  height: 23vh;
+}
+
+.offer1 {
+  width: 19%;
+  margin-left: 8px;
+  padding: 0px 3px;
+  height: 20vh;
+  margin-top: 17px;
+}
+
+.Explore {
+
+  margin-left: 80px;
+  margin-top: 20px;
+  font-size: 40px;
+  color: gray;
+
+}
+
+.Expore-box {
+  margin-top: 10px;
+  /* background-color: aqua; */
+  padding: 15px;
+  display: flex;
+}
+
+.Explore-menu {
+  padding: 0;
+  border-style: dashed;
+  border: 1px;
+  border-style: dotted;
+  /* background-color: azure; */
+  width: 23%;
+  text-decoration: none;
+  margin-left: 7%;
+  font-family: 'proximaNova';
+
+}
+
+.menuicon {
+  height: 10vh;
+  margin-top: 5px;
+  margin-left: 40%;
+  justify-content: center;
+}
+
+.ourmenu {
+  color: rgb(60, 59, 59);
+  font-size: small;
+  margin-top: 8px;
+  text-align: center;
+
+}
+
+.context {
+  font-weight: bold;
+  color: rgb(34, 32, 32);
+  margin: 25px 20px;
+}
+
+.discovepizza {
+  text-decoration: none;
+  text-align: center;
+}
+
+.Discoverpizza {
+  padding: 10px;
+  font-size: 13px;
+  text-align: center;
+  font-weight: 800;
+  border-top-style: groove;
+  letter-spacing: 0.8px;
+  color: #de042e;
+  border-color: #eee;
+}
+
+.Explore-menu:hover {
+  background-color: azure;
+}
+
+.Discoverpizza:hover {
+  background-color: bisque;
+}
+
+.appimg {
+  background-color: #f2f5fc;
+  display: flex;
+  justify-content: center;
+  padding-top: 2em;
+  font-family: 'proximaNova';
+}
+
+.app-download {
+  font-family: "ProximaNova";
+  font-weight: bold;
+  letter-spacing: 0.15;
+  color: #000;
+  text-transform: none;
+  font-size: 2.5em;
+  margin-top: 20px;
+}
+
+.context2 {
+  margin-top: 20px;
+  font-size: 27px;
+  line-height: 43px;
+  letter-spacing: 0.24px;
+  color: #8899c0;
+  max-width: 457px;
+}
+
+/* //mobile  */
+@media only screen and (max-width: 844px) {
+  
+
+  .gifcard {
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    color: gray;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .giftcardoffer {
+    align-items: center;
+    background-color: #eee;
+    padding: 22px 0;
+    height: auto;
+  }
+
+  .offer1 {
+    width: 40%;
+    margin-left:20px;
+    padding: 0px 3px;
+    height: 20vh;
+    margin-top: 17px;
+  }
+
+  .Explore {
+   text-align: center;
+    margin-left: 0;
+    margin-top: 3vh;
+    font-size: 40px;
+    color: gray;
+
+  }
+
+  .Expore-box {
+    margin-top: 10px;
+    /* background-color: aqua; */
+    padding: 15px;
+    display: flex;
+  }
+
+  .Explore-menu {
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    border-style: dashed;
+    border: 1px;
+    border-style: dotted;
+    /* background-color: azure; */
+    width: 30%;
+    text-decoration: none;
+    margin-left: 3%;
+    font-family: 'proximaNova';
+
+  }
+
+  .menuicon {
+    height: 10vh;
+    margin-top: 5px;
+    margin-left: 0%;
+    justify-content: center;
+  }
+
+  .ourmenu {
+    color: rgb(60, 59, 59);
+    font-size: 10px;
+    margin-top: 8px;
+    text-align: center;
+
+  }
+
+  .context {
+    font-weight: bold;
+    color: rgb(34, 32, 32);
+   
+  }
+
+  .discovepizza {
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .Discoverpizza {
+    padding: 10px;
+    font-size: 8px;
+    text-align: center;
+    font-weight: 800;
+    border-top-style: groove;
+    letter-spacing: 0.8px;
+    color: #de042e;
+    border-color: #eee;
+  }
+
+  .Explore-menu:hover {
+    background-color: azure;
+  }
+
+  .Discoverpizza:hover {
+    background-color: bisque;
+  }
+
+  .appimg {
+    background-color: #f2f5fc;
+    display: flex;
+    justify-content: center;
+    padding-top: 0;
+    font-family: 'proximaNova';
+  }
+.appimgicon{
+  width: 90%;
+  height: 100%;
+  margin-bottom: 0px;
+}
+  .app-download {
+    font-family: "ProximaNova";
+    font-weight: bold;
+    letter-spacing: 0.15;
+    color: #000;
+    text-transform: none;
+    font-size: 2em;
+    margin-top: 5px;
+  }
+
+  .context2 {
+    margin-top: 5px;
+    font-size: 20px;
+    line-height: 43px;
+    letter-spacing: 0.24px;
+    color: #8899c0;
+    max-width: 457px;
+  }
+
+}

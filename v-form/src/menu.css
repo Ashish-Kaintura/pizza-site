@@ -1,0 +1,97 @@
+.slider{
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9234e;
+}
+.menuheader{
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+}
+.menu{
+    font-size: 40px;
+    padding: 20px 0;
+    color: #de042e;
+    font-family: "Oswald-Regular";
+    font-weight: 800;
+    letter-spacing: 1px
+}
+/* .container3{
+    display: inline-block;
+    /* background: #e61a39; */
+
+.wallpaper{
+    background-image: url("https://www.dominos.co.in/theme2/front/images/menu-images/red.webp");
+    display: inline-flex;
+    padding: 2px 10px;
+   
+}
+.wallpaper1{
+    background-image: url("https://www.dominos.co.in/theme2/front/images/menu-images/red.webp");
+    display:flex;
+    flex-wrap: wrap ;
+    padding: 2px 10px;
+    margin-top: 2px;
+   
+}
+.background-red{
+    /* background-color: aquamarine; */
+    width: 50%;
+    padding: 10px 10px;
+    font-size: small;
+}
+
+.hedline{
+    text-align: center;
+    align-items: center;
+    color: #fff;
+    padding-top: 30px;
+}
+.hedline-text{
+    font-size: 27px;
+    font-family: 'proximaNova';
+
+}
+.foodiconwallpaper{
+    padding-top: 35px;
+}
+.pastawallpaper{
+    width: 85%;
+    height: 35vh;
+    padding-top: 35px;
+    
+}
+.discription{
+    text-align: center;
+    align-items: center;
+    padding: 2px 6px;
+    margin-top: 7px;
+    font-size: 16px;
+    color: #fff;
+
+}
+.viewall-btn{
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 0%;
+}
+.viewall{
+    padding: 4px 25px;
+    color: #de042e;
+    font-size: 20px;
+   font-weight:580;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    color:rgb(9, 141, 194);
+}
+.viewall:hover{
+    padding: 10px 25px;
+   background-color :#de042e;
+   color: #fff;
+   border-color:whitesmoke;
+  
+}

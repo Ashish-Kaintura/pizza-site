@@ -1,0 +1,57 @@
+.breadheadline{
+    text-align: center;
+    align-items: center;
+    font-size: larger;
+   color:#ea0432;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    text-decoration: underline;
+    text-shadow:  #000;width: auto;
+    flex-wrap:nowrap;
+}
+.breaddisplayflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #de042e;
+    margin-top: 10px;
+}
+.breadicon{
+    /* background-color:aqua; */
+    background-color: #ea0432;
+    margin-top: 10px;
+    text-align: center;padding: 20px;
+    margin-left:10px;
+}
+.breadimg{
+    margin-top: 10px;
+    width: 15vw;
+    height: 20vh;
+}
+.breadname{
+        font-size: 15px;
+        margin-top: 50px;
+        padding: 0 10px;
+        color: whitesmoke;
+}
+.breaddiscription{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 0 13px;
+    text-align: center;
+    word-spacing: 5px;
+    white-space: wrap;
+}
+.breadorderbtn{
+    padding: 10px 20px;
+    font-size: larger;
+    border-radius: 10px;
+    color: #de042e;
+    font-weight: 500;
+   border-color: #de042e;
+}
+.breadorderbtn:hover{
+    border: 2px solid #fff;
+    color: #fff;
+    background-color: #de042e;
+}
